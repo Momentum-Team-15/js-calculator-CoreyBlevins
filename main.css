@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    background: whitesmoke;
+    padding: 10px;
+    margin: 5px; 
+}
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    margin:auto;
+    user-select: none;
+}
+section {
+    border: 2px solid black;
+    background: rgb(189, 189, 189);
+    box-shadow: 6px 4px 1px black;
+    text-align: center;
+    height: 70vh;
+    width: 40vw;
+    font-size: x-large;
+    font-weight: bold;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 20%;
+    grid-template-columns: 26%;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.norm {
+    background:linear-gradient(to bottom right, rgb(230, 230, 230), whitesmoke, rgb(220, 220, 220));
+    box-shadow: 4px 2px 1px black;
+}
+.clicked {
+    background:whitesmoke;
+}
+#clear {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+.display {
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 1;
+    justify-content: end;
+    overflow: hidden;
+    border: 2px solid rgb(42, 42, 42);
+}
+#seven {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+#eight {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+#nine {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+}
+#divide {
+    grid-column: 4 / span 1;
+    grid-row: 2 / span 1;
+}
+#four {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+}
+#five {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+}
+#six {
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+}
+#multiply {
+    grid-column: 4 / span 1;
+    grid-row: 3 / span 1;
+}
+#one {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+}
+#two {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+}
+#three {
+    grid-column: 3 / span 1;
+    grid-row: 4 / span 1;
+}
+#subtract {
+    grid-column: 4 / span 1;
+    grid-row: 4 / span 1;
+}
+#zero {
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 1;
+}
+#decimal {
+    grid-column: 2 / span 1;
+    grid-row: 5 / span 1;
+}
+#equals {
+    grid-column: 3 / span 1;
+    grid-row: 5 / span 1;
+}
+#add {
+    grid-column: 4 / span 1;
+    grid-row: 5 / span 1;
+}
